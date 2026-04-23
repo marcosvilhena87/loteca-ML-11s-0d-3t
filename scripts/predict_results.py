@@ -216,11 +216,7 @@ def generate_predictions() -> None:
 
     write_csv_semicolon("output/predictions.csv", output_rows, output_rows[0].keys())
 
-    count_signs = {
-        "1": sum(1 for p in picks if p == "1"),
-        "X": sum(1 for p in picks if p == "X"),
-        "2": sum(1 for p in picks if p == "2"),
-    }
+    count_signs = {"1": 0, "X": 0, "2": 0}
     rank_counts = {"top1": 0, "top2": 0, "top3": 0}
     blacklist_conflicts = 0
     flamengo_favor = 0
@@ -228,7 +224,15 @@ def generate_predictions() -> None:
     for row, pick in zip(rows, picks):
         probs = probabilities_from_row(row)
         ranks = rank_outcomes(probs)
-        if pick in ("1", "X", "2"):
+        if pick == "1X2":
+            rank_counts["top1"] += 1
+            rank_counts["top2"] += 1
+            rank_counts["top3"] += 1
+            count_signs["1"] += 1
+            count_signs["X"] += 1
+            count_signs["2"] += 1
+        elif pick in ("1", "X", "2"):
+            count_signs[pick] += 1
             if pick == ranks.top1:
                 rank_counts["top1"] += 1
             elif pick == ranks.top2:
