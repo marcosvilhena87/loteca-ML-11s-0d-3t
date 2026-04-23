@@ -15,15 +15,16 @@
     "target_secos": 11
   },
   "solution": {
+    "score_total": 8.912526,
     "triples": 3,
     "doubles": 0,
     "secos": 11,
     "palpites": [
       "2",
       "1",
+      "1X2",
       "1",
-      "1",
-      "1",
+      "X",
       "2",
       "1",
       "1",
@@ -31,10 +32,283 @@
       "2",
       "1X2",
       "1X2",
-      "1X2",
-      "X"
+      "1",
+      "1"
     ]
   },
+  "post_solver_report": {
+    "quantidade_top1_top2_top3": {
+      "top1": 6,
+      "top2": 3,
+      "top3": 2
+    },
+    "quantidade_1_x_2": {
+      "1": 6,
+      "X": 2,
+      "2": 3
+    },
+    "jogos_contra_blacklist": 2,
+    "jogos_pro_flamengo": 1,
+    "triplos_escolhidos_por_entropia": [
+      {
+        "Jogo": "3",
+        "Mandante": "BOTAFOGO/RJ",
+        "Visitante": "INTERNACIONAL/RS",
+        "entropia": "1.096269"
+      },
+      {
+        "Jogo": "11",
+        "Mandante": "BRAGANTINO/SP",
+        "Visitante": "PALMEIRAS/SP",
+        "entropia": "1.084412"
+      },
+      {
+        "Jogo": "12",
+        "Mandante": "MILAN/ITA",
+        "Visitante": "JUVENTUS/ITA",
+        "entropia": "1.096269"
+      }
+    ],
+    "maiores_riscos_da_aposta": [
+      {
+        "Jogo": "5",
+        "Mandante": "SPORT/PE",
+        "Visitante": "NOVORIZONTINO/SP",
+        "Palpite": "X",
+        "margem_probabilidade": "0.143527"
+      },
+      {
+        "Jogo": "4",
+        "Mandante": "REMO/PA",
+        "Visitante": "CRUZEIRO/MG",
+        "Palpite": "1",
+        "margem_probabilidade": "0.153802"
+      },
+      {
+        "Jogo": "9",
+        "Mandante": "OSASUNA/ESP",
+        "Visitante": "SEVILLA/ESP",
+        "Palpite": "X",
+        "margem_probabilidade": "0.156306"
+      },
+      {
+        "Jogo": "1",
+        "Mandante": "ATLETICO/MG",
+        "Visitante": "FLAMENGO/RJ",
+        "Palpite": "2",
+        "margem_probabilidade": "0.195980"
+      },
+      {
+        "Jogo": "7",
+        "Mandante": "CORINTHIANS/SP",
+        "Visitante": "VASCO DA GAMA/RJ",
+        "Palpite": "1",
+        "margem_probabilidade": "0.210526"
+      }
+    ]
+  },
+  "candidate_bets": [
+    {
+      "rank": 1,
+      "score": 8.912526,
+      "palpites": [
+        "2",
+        "1",
+        "1X2",
+        "1",
+        "X",
+        "2",
+        "1",
+        "1",
+        "X",
+        "2",
+        "1X2",
+        "1X2",
+        "1",
+        "1"
+      ]
+    },
+    {
+      "rank": 2,
+      "score": 8.893764,
+      "palpites": [
+        "2",
+        "1",
+        "X",
+        "2",
+        "1",
+        "2",
+        "1",
+        "1",
+        "X",
+        "1X2",
+        "1",
+        "1",
+        "1X2",
+        "1X2"
+      ]
+    },
+    {
+      "rank": 3,
+      "score": 8.884997,
+      "palpites": [
+        "2",
+        "1",
+        "X",
+        "2",
+        "1",
+        "1X2",
+        "1",
+        "1",
+        "X",
+        "1X2",
+        "1",
+        "1",
+        "2",
+        "1X2"
+      ]
+    },
+    {
+      "rank": 4,
+      "score": 8.861451,
+      "palpites": [
+        "2",
+        "1",
+        "X",
+        "2",
+        "1",
+        "1X2",
+        "1",
+        "1",
+        "X",
+        "2",
+        "1",
+        "1",
+        "1X2",
+        "1X2"
+      ]
+    },
+    {
+      "rank": 5,
+      "score": 8.848287,
+      "palpites": [
+        "2",
+        "1",
+        "X",
+        "2",
+        "1",
+        "2",
+        "1",
+        "1",
+        "1X2",
+        "1X2",
+        "1",
+        "1",
+        "X",
+        "1X2"
+      ]
+    },
+    {
+      "rank": 6,
+      "score": 8.845313,
+      "palpites": [
+        "2",
+        "1",
+        "X",
+        "2",
+        "1",
+        "2",
+        "1",
+        "1",
+        "1X2",
+        "1X2",
+        "1",
+        "1",
+        "1X2",
+        "X"
+      ]
+    },
+    {
+      "rank": 7,
+      "score": 8.836822,
+      "palpites": [
+        "2",
+        "1",
+        "X",
+        "1",
+        "X",
+        "2",
+        "1",
+        "1",
+        "1X2",
+        "1X2",
+        "1",
+        "2",
+        "1",
+        "1X2"
+      ]
+    },
+    {
+      "rank": 8,
+      "score": 8.836546,
+      "palpites": [
+        "2",
+        "1",
+        "X",
+        "2",
+        "1",
+        "1X2",
+        "1",
+        "1",
+        "1X2",
+        "1X2",
+        "1",
+        "1",
+        "2",
+        "X"
+      ]
+    },
+    {
+      "rank": 9,
+      "score": 8.832299,
+      "palpites": [
+        "2",
+        "1",
+        "2",
+        "1",
+        "1",
+        "1",
+        "X",
+        "1",
+        "1",
+        "1X2",
+        "1X2",
+        "1X2",
+        "2",
+        "X"
+      ]
+    },
+    {
+      "rank": 10,
+      "score": 8.829983,
+      "palpites": [
+        "2",
+        "1",
+        "X",
+        "2",
+        "1",
+        "X",
+        "1",
+        "1",
+        "1X2",
+        "1X2",
+        "1",
+        "1",
+        "2",
+        "1X2"
+      ]
+    }
+  ],
   "debug_rows": [
     {
       "Concurso": "1246",
@@ -67,7 +341,7 @@
       "Jogo": "3",
       "Mandante": "BOTAFOGO/RJ",
       "Visitante": "INTERNACIONAL/RS",
-      "Palpite": "1",
+      "Palpite": "1X2",
       "top1": "1",
       "top2": "2",
       "top3": "X",
@@ -93,7 +367,7 @@
       "Jogo": "5",
       "Mandante": "SPORT/PE",
       "Visitante": "NOVORIZONTINO/SP",
-      "Palpite": "1",
+      "Palpite": "X",
       "top1": "1",
       "top2": "X",
       "top3": "2",
@@ -197,7 +471,7 @@
       "Jogo": "13",
       "Mandante": "FLUMINENSE/RJ",
       "Visitante": "CHAPECOENSE/SC",
-      "Palpite": "1X2",
+      "Palpite": "1",
       "top1": "1",
       "top2": "X",
       "top3": "2",
@@ -210,7 +484,7 @@
       "Jogo": "14",
       "Mandante": "ATLETICO/GO",
       "Visitante": "AVAI/SC",
-      "Palpite": "X",
+      "Palpite": "1",
       "top1": "1",
       "top2": "X",
       "top3": "2",
