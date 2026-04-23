@@ -1,0 +1,222 @@
+{
+  "hard_constraints": {
+    "target_rank_counts_top1_top2_top3": [
+      9,
+      6,
+      5
+    ],
+    "target_sign_counts_1_x_2": [
+      9,
+      5,
+      6
+    ],
+    "target_triples": 3,
+    "target_doubles": 0,
+    "target_secos": 11
+  },
+  "solution": {
+    "triples": 3,
+    "doubles": 0,
+    "secos": 11,
+    "palpites": [
+      "2",
+      "1",
+      "1",
+      "1",
+      "1",
+      "2",
+      "1",
+      "1",
+      "X",
+      "2",
+      "1X2",
+      "1X2",
+      "1X2",
+      "X"
+    ]
+  },
+  "debug_rows": [
+    {
+      "Concurso": "1246",
+      "Jogo": "1",
+      "Mandante": "ATLETICO/MG",
+      "Visitante": "FLAMENGO/RJ",
+      "Palpite": "2",
+      "top1": "2",
+      "top2": "X",
+      "top3": "1",
+      "p(top1)": "0.475951",
+      "p(top2)": "0.279971",
+      "p(top3)": "0.244078"
+    },
+    {
+      "Concurso": "1246",
+      "Jogo": "2",
+      "Mandante": "BAHIA/BA",
+      "Visitante": "SANTOS/SP",
+      "Palpite": "1",
+      "top1": "1",
+      "top2": "X",
+      "top3": "2",
+      "p(top1)": "0.526316",
+      "p(top2)": "0.263158",
+      "p(top3)": "0.210526"
+    },
+    {
+      "Concurso": "1246",
+      "Jogo": "3",
+      "Mandante": "BOTAFOGO/RJ",
+      "Visitante": "INTERNACIONAL/RS",
+      "Palpite": "1",
+      "top1": "1",
+      "top2": "2",
+      "top3": "X",
+      "p(top1)": "0.365854",
+      "p(top2)": "0.317073",
+      "p(top3)": "0.317073"
+    },
+    {
+      "Concurso": "1246",
+      "Jogo": "4",
+      "Mandante": "REMO/PA",
+      "Visitante": "CRUZEIRO/MG",
+      "Palpite": "1",
+      "top1": "2",
+      "top2": "1",
+      "top3": "X",
+      "p(top1)": "0.441345",
+      "p(top2)": "0.287543",
+      "p(top3)": "0.271112"
+    },
+    {
+      "Concurso": "1246",
+      "Jogo": "5",
+      "Mandante": "SPORT/PE",
+      "Visitante": "NOVORIZONTINO/SP",
+      "Palpite": "1",
+      "top1": "1",
+      "top2": "X",
+      "top3": "2",
+      "p(top1)": "0.437415",
+      "p(top2)": "0.293888",
+      "p(top3)": "0.268698"
+    },
+    {
+      "Concurso": "1246",
+      "Jogo": "6",
+      "Mandante": "SAO PAULO/SP",
+      "Visitante": "MIRASSOL/SP",
+      "Palpite": "2",
+      "top1": "1",
+      "top2": "X",
+      "top3": "2",
+      "p(top1)": "0.518694",
+      "p(top2)": "0.249792",
+      "p(top3)": "0.231514"
+    },
+    {
+      "Concurso": "1246",
+      "Jogo": "7",
+      "Mandante": "CORINTHIANS/SP",
+      "Visitante": "VASCO DA GAMA/RJ",
+      "Palpite": "1",
+      "top1": "1",
+      "top2": "2",
+      "top3": "X",
+      "p(top1)": "0.473684",
+      "p(top2)": "0.263158",
+      "p(top3)": "0.263158"
+    },
+    {
+      "Concurso": "1246",
+      "Jogo": "8",
+      "Mandante": "GREMIO/RS",
+      "Visitante": "CORITIBA/PR",
+      "Palpite": "1",
+      "top1": "1",
+      "top2": "X",
+      "top3": "2",
+      "p(top1)": "0.500595",
+      "p(top2)": "0.279744",
+      "p(top3)": "0.219661"
+    },
+    {
+      "Concurso": "1246",
+      "Jogo": "9",
+      "Mandante": "OSASUNA/ESP",
+      "Visitante": "SEVILLA/ESP",
+      "Palpite": "X",
+      "top1": "1",
+      "top2": "X",
+      "top3": "2",
+      "p(top1)": "0.441735",
+      "p(top2)": "0.285429",
+      "p(top3)": "0.272836"
+    },
+    {
+      "Concurso": "1246",
+      "Jogo": "10",
+      "Mandante": "ATHLETICO/PR",
+      "Visitante": "VITORIA/BA",
+      "Palpite": "2",
+      "top1": "1",
+      "top2": "X",
+      "top3": "2",
+      "p(top1)": "0.556783",
+      "p(top2)": "0.262925",
+      "p(top3)": "0.180292"
+    },
+    {
+      "Concurso": "1246",
+      "Jogo": "11",
+      "Mandante": "BRAGANTINO/SP",
+      "Visitante": "PALMEIRAS/SP",
+      "Palpite": "1X2",
+      "top1": "2",
+      "top2": "1",
+      "top3": "X",
+      "p(top1)": "0.413955",
+      "p(top2)": "0.297530",
+      "p(top3)": "0.288514"
+    },
+    {
+      "Concurso": "1246",
+      "Jogo": "12",
+      "Mandante": "MILAN/ITA",
+      "Visitante": "JUVENTUS/ITA",
+      "Palpite": "1X2",
+      "top1": "2",
+      "top2": "1",
+      "top3": "X",
+      "p(top1)": "0.365854",
+      "p(top2)": "0.317073",
+      "p(top3)": "0.317073"
+    },
+    {
+      "Concurso": "1246",
+      "Jogo": "13",
+      "Mandante": "FLUMINENSE/RJ",
+      "Visitante": "CHAPECOENSE/SC",
+      "Palpite": "1X2",
+      "top1": "1",
+      "top2": "X",
+      "top3": "2",
+      "p(top1)": "0.731870",
+      "p(top2)": "0.172987",
+      "p(top3)": "0.095143"
+    },
+    {
+      "Concurso": "1246",
+      "Jogo": "14",
+      "Mandante": "ATLETICO/GO",
+      "Visitante": "AVAI/SC",
+      "Palpite": "X",
+      "top1": "1",
+      "top2": "X",
+      "top3": "2",
+      "p(top1)": "0.496387",
+      "p(top2)": "0.285799",
+      "p(top3)": "0.217814"
+    }
+  ]
+}
